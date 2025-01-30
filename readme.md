@@ -8,6 +8,12 @@
     ✔ Deep Learning Basics (neural networks, layers, activation functions)
     ✔ Pre-trained Models (like YOLO, MobileNet, ResNet, etc.)
 
+
+    🔹 Use OpenCV’s drawing functions to create lines, rectangles, circles, ellipses, polygons, and text.
+    🔹 Use cv2.imshow() to display your drawing.
+    🔹 Always create a black canvas (np.zeros()) before drawing.
+
+
 ##### NumPy is an essential library for numerical computing in Python, widely used in data science, AI, finance, and engineering. Mastering NumPy will make your code faster, more efficient, and easier to work with.
 ##### Broadcasting and vectorization are two powerful features in NumPy that make operations on arrays efficient and concise. These techniques eliminate the need for explicit loops, making computations faster.
 ##### Broadcasting allows NumPy to perform element-wise operations on arrays of different shapes without explicit looping.
