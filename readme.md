@@ -77,6 +77,28 @@
     | Tanh |	f(x)=ex−e−xex+e−xf(x)=ex+e−xex−e−x​	| Better than Sigmoid |
     | Softmax	| Normalizes outputs |	Multi-class classification |
 
+    5. Building a Simple Neural Network (Python - TensorFlow)
+    [see file deep_learning/simple_neural_network.py]
+
+    🔹 Dense(128, activation='relu') → 128 neurons with ReLU activation
+    🔹 softmax → Multi-class classification
+
+    6. Training a Neural Network
+    
+        Dataset → Provide labeled data (e.g., MNIST, CIFAR-10)
+        Preprocessing → Normalize and reshape input
+        Define Model → Choose layers, activation functions
+        Compile Model → Choose optimizer, loss function
+        Train Model → Feed data and adjust weights
+        Evaluate & Predict → Test on new data
+
+    7. Neural Network in Action (Visualized)
+    
+        Imagine recognizing a handwritten digit:
+        1️⃣ Input: 28×28 image of a digit
+        2️⃣ Hidden Layers: Detect edges, shapes, patterns
+        3️⃣ Output Layer: Predict digit (0-9)
+
 
 ##### NumPy is an essential library for numerical computing in Python, widely used in data science, AI, finance, and engineering. Mastering NumPy will make your code faster, more efficient, and easier to work with.
 ##### Broadcasting and vectorization are two powerful features in NumPy that make operations on arrays efficient and concise. These techniques eliminate the need for explicit loops, making computations faster.
