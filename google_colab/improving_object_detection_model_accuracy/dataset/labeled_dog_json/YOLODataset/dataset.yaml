@@ -1,0 +1,7 @@
+path: /home/nishith/Documents/GitHub/muyOpenCv/google_colab/improving_object_detection_model_accuracy/dataset/labeled_dog_json/YOLODataset
+train: images/train
+val: images/val
+test:
+
+names:
+    0: labeled_dog

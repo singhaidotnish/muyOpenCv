@@ -28,7 +28,6 @@ $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverf
     ✔ Deep Learning Basics (neural networks, layers, activation functions)
     ✔ Pre-trained Models (like YOLO, MobileNet, ResNet, etc.)
 
-
     🔹 Use OpenCV’s drawing functions to create lines, rectangles, circles, ellipses, polygons, and text.
     🔹 Use cv2.imshow() to display your drawing.
     🔹 Always create a black canvas (np.zeros()) before drawing.
@@ -43,7 +42,7 @@ $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverf
 
     #### Understand OpenCV's dnn Module
 
-    The dnn module allows loading and running deep learning models trained in frameworks like TensorFlow, Caffe, and PyTorch. Learn:
+        The dnn module allows loading and running deep learning models trained in frameworks like TensorFlow, Caffe, and PyTorch. Learn:
 
         How to load pre-trained models
         Running inference on images and videos
